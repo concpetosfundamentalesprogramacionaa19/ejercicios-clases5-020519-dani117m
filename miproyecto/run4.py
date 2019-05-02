@@ -14,29 +14,28 @@ obtener la proyecion costo total de la carrera de un estudiante
 #from misvariables import*
 
 # ingreso de datos 
-modalidad = input ("1:Precencial\t2:Distancia\nIngrese la modalidad elegida")
-edad = input("Ingrese su edad")
+modalidad = input ("1:Precencial\t2:Distancia\nIngrese la modalidad elegida\n")
+edad = input("Ingrese su edad\n")
 # en python de utiliza esta funcion para pasar los datos a entero o viceversa 
-
+#
 modalidad = int(modalidad)
 edad = int(edad) 
-
-seguro = 100
-seguro2 = 150
-ciclo = 1200
-
-# solucion if para coprobar la nota y se aprobo o no 
-if modalidad = 1:
-	costo = 8*ciclo
-	print(" con nota" )
+costo = int
+costo1 = int
+ciclo = int 
+costot = int 
+# solucion en esta primera parte se decide q tipo de modalidad se sige y segun el mismo se altera la variable ciclo 
+if (modalidad == 1) :
+	ciclo = 8
+	costo = 1200*ciclo	
 else:
-	if = modalidad = 2:
-		costo = 10*ciclo
-		print("%s con no" )	
-
-if (edad<=20) and (modalidad=1):
-	costo2 = 100*
-	print("%s con nota %d" % ("buena",nota))
+	ciclo = 10
+	costo = 1200*ciclo
+# en la funcion edad se lee que tipo de seguro se va a dar utilisando la variable ciclo anteriormente asiganada 	
+if (edad <= 20) :
+	costo1 = 100*ciclo
 else:
-	costo2 = 
-	print("%s con nota %d" % ("Insuficiente", nota))
+	costo1 = 150*ciclo
+# aquie se hace la suma total para obtener el valor total de tramite 
+costot = costo+costo1 
+print("El precio total de la carrera mas el seguro es de %d" % (costot))
