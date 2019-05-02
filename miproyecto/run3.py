@@ -1,5 +1,5 @@
 """
-file: run2.py
+file: run3.py
 autor: dani117m
 ///
 nota mayor o igual a 18: sobresaliente 
@@ -14,12 +14,12 @@ nota menor a 13: insuficiente
 """
 from misvariables import*
 
-
+# ingreso de datos 
 nota = input ("Ingrese su nota 1: ")
 
-
+# en python de utiliza esta funcion para pasar los datos a entero o viceversa 
 nota = int(nota)
-
+# solucion if para coprobar la nota y se aprobo o no 
 if nota>=18:
 	print("%s con nota %d" % ("Sobresaliente",nota))
 else:
